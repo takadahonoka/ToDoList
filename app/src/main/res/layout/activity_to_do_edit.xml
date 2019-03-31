@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffff0"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitleEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:text="@string/tv_title_edit"
+            android:textColor="#a2a2a2"
+            android:textSize="25sp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tv_input_name"
+            android:background="#fffff0"
+            android:textColor="#a2a2a2"
+            android:gravity="center_vertical"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/etInputName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"/>
+
+        <Switch
+            android:id="@+id/etInputDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="未完"
+            android:textOn="完了"
+            android:showText="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tv_input_deadline"
+            android:background="#fffff0"
+            android:textColor="#a2a2a2"
+            android:gravity="center_vertical"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/etInputDeadLine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center_horizontal"
+            android:onClick="showDatePickerDialog"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="showDatePickerDialog"
+            android:background="#e95295"
+            android:textColor="#ffffff"
+            android:text="@string/btn_change"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/tv_input_content"
+            android:background="#fffff0"
+            android:textColor="#a2a2a2"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/etInputContent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:inputType="textMultiLine"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuContextFinish"
+        android:title="@string/menu_context_finish"/>
+    <item
+        android:id="@+id/menuContextIncomplete"
+        android:title="@string/menu_context_incomplete"/>
+    <item
+        android:id="@+id/menuContextOther"
+        android:title="@string/menu_context_other"/>
+</menu>

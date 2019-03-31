@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+オプションメニュー
+-->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuDisplayAll"
+        android:title="@string/btn_display_all"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menuDisplayFinish"
+        android:title="@string/btn_display_finish"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menuDisplayIncomplete"
+        android:title="@string/btn_display_incomplete"
+        app:showAsAction="never"/>
+</menu>

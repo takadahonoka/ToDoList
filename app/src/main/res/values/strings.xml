@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="action_settings">Settings</string>
+    <!-- リスト画面 -->
+    <string name="tv_title_list">ToDoリスト</string>
+    <string name="btn_new">新規</string>
+    <!-- 編集画面 -->
+    <string name="tv_title_edit">タスク情報編集</string>
+    <string name="tv_title_insert">タスク情報登録</string>
+    <string name="tv_input_name">タスク名：</string>
+    <string name="tv_input_deadline1">完了</string>
+    <string name="tv_input_deadline2">未完</string>
+    <string name="tv_input_deadline">期限：</string>
+    <string name="tv_input_content">詳細：</string>
+    <string name="btn_save">更新</string>
+    <string name="btn_insert">登録</string>
+    <string name="btn_back">戻る</string>
+    <string name="btn_delete">削除</string>
+    <string name="btn_change">変更</string>
+    <string name="msg_input_title">タスク名ぐらいは入力してくださいね。</string>
+    <string name="btn_display_incomplete">未完了</string>
+    <string name="btn_display_finish">完了</string>
+    <string name="btn_display_all">全て</string>
+    <string name="menu_context_finish">完了に変更</string>
+    <string name="menu_context_incomplete">未完了に変更</string>
+    <string name="menu_context_other">その他</string>
+
+    <string name="week_name01">月</string>
+    <string name="week_name02">火</string>
+    <string name="week_name03">水</string>
+    <string name="week_name04">木</string>
+    <string name="week_name05">金</string>
+    <string name="week_name06">土</string>
+    <string name="week_name07">日</string>
+
+    <string name="btn_back_month">先月</string>
+    <string name="btn_next_month">来月</string>
+    <string name="title_activity_all_map_list">AllMapListActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

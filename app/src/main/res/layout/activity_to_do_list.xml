@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffff0"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTitleList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tv_title_list"
+            android:textSize="35sp"/>
+
+        <!--<ImageView-->
+        <!--android:id="@+id/btnAllCalendar"-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:background="#4682b4"-->
+        <!--android:onClick="onNextCalendarButtonClick"-->
+        <!--android:src="@android:drawable/ic_menu_today"-->
+        <!--android:tint="@android:color/background_light"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_marginTop="5dp"/>-->
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvTasksList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp" />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/btnAllMap"-->
+        <!--android:layout_width="56dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginBottom="150dp"-->
+        <!--android:onClick="onAllMapButtonClick"-->
+        <!--android:src="@android:drawable/ic_menu_today"-->
+        <!--android:tint="#ff4081"-->
+        <!--app:backgroundTint="#000080"-->
+        <!--app:layout_anchor="@+id/lvTasksList"-->
+        <!--app:layout_anchorGravity="right|bottom" />-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnAllCalendar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="onNextCalendarButtonClick"
+        android:src="@android:drawable/ic_menu_today"
+        android:tint="@android:color/background_light"
+        app:backgroundTint="#000080"
+        app:layout_anchor="@+id/lvTasksList"
+        app:layout_anchorGravity="right|bottom" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnNew"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="onNewButtonClick"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/background_light"
+        app:backgroundTint="#ff4081"
+        app:layout_anchor="@+id/lvTasksList"
+        app:layout_anchorGravity="right|bottom" />
+
+
+</android.support.design.widget.CoordinatorLayout>
